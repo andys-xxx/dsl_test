@@ -1,5 +1,5 @@
-job('job2_deploy.'){
-description('this job will deploy code')
+job('job2_deploy'){
+description('job number 2')
 triggers {
         upstream('seed_job', 'SUCCESS')
     }
